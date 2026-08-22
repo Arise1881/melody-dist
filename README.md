@@ -30,7 +30,7 @@ Spotify tarzı, açık kaynak (GPL-3.0) müzik uygulaması.
 ## ❓ Sık Sorulanlar
 
 **Ücretli mi?** Hayır. Ücretsiz Apple ID ile kurulur.
-**Ne kadar geçerli?** Ücretsiz hesapta imza 7 gün sürer; AltStore aynı WiFi'dayken otomatik yeniler.
+**Ne kadar geçerli?** Ücretsiz ; AltStore aynı WiFi'dayken otomatik yeniler.
 **Geliştirici Modu?** iOS 16+ cihazlarda ilk kurulumda: Ayarlar → Gizlilik ve Güvenlik → Geliştirici Modu → Aç.
 
 ---
