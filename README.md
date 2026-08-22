@@ -6,8 +6,9 @@ Spotify tarzı, açık kaynak (GPL-3.0) müzik uygulaması.
 
 | Dosya | Link |
 |-------|------|
+| 🤖 APK (Android) | [Melody.apk indir](../../releases/latest/download/Melody.apk) |
 | 📦 IPA (iOS) | [Melody.ipa indir](../../releases/latest/download/Melody.ipa) |
-| 🤖 APK (Android) | [Melody.apk](https://github.com/Arise1881/melody) *(yakında)* |
+| 🌐 Tanıtım sayfası | [arise1881.github.io/melody-dist](https://arise1881.github.io/melody-dist/) |
 
 ## 📲 iPhone'a Kurulum — 3 Yol
 
