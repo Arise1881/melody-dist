@@ -1,0 +1,26 @@
+{
+  "name": "Melody - Müzik Player",
+  "subtitle": "Spotify tarzı açık kaynak müzik uygulaması",
+  "description": "Melody, GPL-3.0 lisanslı açık kaynak bir müzik çalar. Çevrimdışı indirme, çalma listeleri, ekolayzer ve daha fazlası. AltStore üzerinden kurmak için ücretsiz Apple ID yeterlidir (7 günde bir AltStore ile yenileme gerekir).",
+  "iconURL": "https://raw.githubusercontent.com/Arise1881/melody-dist/main/icon.png",
+  "headerURL": "https://raw.githubusercontent.com/Arise1881/melody-dist/main/header.png",
+  "tintColor": "1DB954",
+  "website": "https://github.com/Arise1881/melody-dist",
+  "apps": [
+    {
+      "name": "Melody",
+      "bundleIdentifier": "com.melody.app",
+      "version": "1.0.0",
+      "versionDate": "2026-08-22T04:30:00Z",
+      "versionDescription": "İlk sürüm: Türkçe arayüz, Spotify teması, çevrimdışı destek.",
+      "downloadURL": "https://github.com/Arise1881/melody-dist/releases/latest/download/Melody.ipa",
+      "size": 9829858,
+      "iconURL": "https://raw.githubusercontent.com/Arise1881/melody-dist/main/icon.png",
+      "tintColor": "1DB954",
+      "appPermissions": {
+        "entitlements": {}
+      }
+    }
+  ],
+  "news": []
+}
