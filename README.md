@@ -34,4 +34,5 @@ Spotify tarzı, açık kaynak (GPL-3.0) müzik uygulaması.
 **Geliştirici Modu?** iOS 16+ cihazlarda ilk kurulumda: Ayarlar → Gizlilik ve Güvenlik → Geliştirici Modu → Aç.
 
 ---
-Kaynak kod: GPL-3.0 · Orijinal çekirdek: [gokadzev/Musify](https://github.com/gokadzev/Musify)
+
+
