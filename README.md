@@ -9,7 +9,7 @@ Spotify tarzı, açık kaynak (GPL-3.0) müzik uygulaması.
 | 🤖 APK (Android) | [Melody.apk indir](../../releases/latest/download/Melody.apk) |
 | 📦 IPA (iOS) | [Melody.ipa indir](../../releases/latest/download/Melody.ipa) |
 | 🪟 ZIP (Windows) | [Melody-windows.zip indir](../../releases/latest/download/Melody-windows.zip) |
-| 🐧 TAR.GZ (Linux) | [Melody-linux.tar.gz indir](../../releases/latest/download/Melody-linux.tar.gz) |
+| 🐧 DEB (Linux Mint/Ubuntu) | [melody_1.0.0_amd64.deb indir](../../releases/latest/download/melody_1.0.0_amd64.deb) |
 | 🌐 Tanıtım sayfası | [arise1881.github.io/melody-dist](https://arise1881.github.io/melody-dist/) |
 
 ## 📲 iPhone'a Kurulum — 3 Yol
@@ -32,7 +32,8 @@ Spotify tarzı, açık kaynak (GPL-3.0) müzik uygulaması.
 ## 🪟🐧 Masaüstü Kurulum
 
 - **Windows**: zip'i bir klasöre çıkar → `melody.exe` çalıştır (kurulum gerekmez)
-- **Linux**: `tar xzf Melody-linux.tar.gz -C melody && ./melody/melody`
+- **Linux Mint/Ubuntu**: `.deb` dosyasına çift tıkla → **Kur** (veya: `sudo apt install ./melody_1.0.0_amd64.deb`)
+- Menüde "Melody" olarak görünür, ses için sistemde mpv kütüphanesi yeterlidir (Mint/Ubuntu'da hazır gelir)
 
 ## ❓ Sık Sorulanlar
 
