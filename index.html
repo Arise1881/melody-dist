@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Melody - Müzik Player</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; font-family:-apple-system,'Segoe UI',Roboto,sans-serif; }
+  body { background:#121212; color:#fff; min-height:100vh; display:flex; flex-direction:column; align-items:center; padding:40px 20px; }
+  .logo { width:110px; height:110px; background:#121212; border:4px solid #1DB954; border-radius:26px; display:flex; align-items:center; justify-content:center; font-size:64px; color:#1DB954; }
+  h1 { font-size:42px; margin:18px 0 6px; }
+  h1 span { color:#1DB954; }
+  .tag { color:#b3b3b3; margin-bottom:30px; font-size:16px; }
+  .btns { display:flex; flex-direction:column; gap:14px; width:100%; max-width:420px; }
+  .btn { display:block; text-align:center; padding:17px 24px; border-radius:50px; text-decoration:none; font-weight:700; font-size:17px; transition:.15s; }
+  .btn-green { background:#1DB954; color:#000; }
+  .btn-green:active,.btn-green:hover { background:#1ED760; transform:scale(1.02); }
+  .btn-dark { background:#2a2a2a; color:#fff; border:1px solid #444; }
+  .btn-dark:hover { background:#333; }
+  .card { background:#181818; border-radius:14px; padding:22px; max-width:520px; width:100%; margin-top:34px; }
+  .card h2 { font-size:18px; margin-bottom:14px; color:#1DB954; }
+  .card ol { margin-left:20px; line-height:1.9; color:#d9d9d9; font-size:15px; }
+  .note { max-width:520px; width:100%; margin-top:18px; color:#888; font-size:13px; line-height:1.7; text-align:center; }
+  .note b { color:#b3b3b3; }
+</style>
+</head>
+<body>
+  <div class="logo">♪</div>
+  <h1>Melody<span>.</span></h1>
+  <div class="tag">Açık kaynak müzik player · Spotify tarzı · Türkçe</div>
+
+  <div class="btns">
+    <a class="btn btn-green" href="https://github.com/Arise1881/melody-dist/releases/latest/download/Melody.ipa">⬇️ &nbsp;iPhone için İndir (.ipa)</a>
+    <a class="btn btn-dark" href="altstore://source?url=https://raw.githubusercontent.com/Arise1881/melody-dist/main/apps.json">📲 AltStore'a Ekle</a>
+    <a class="btn btn-dark" href="https://github.com/Arise1881/melody-dist#readme">📖 Kurulum Rehberi</a>
+  </div>
+
+  <div class="card">
+    <h2>Sideloadly ile Kurulum (önerilen)</h2>
+    <ol>
+      <li>Yukarıdan <b>.ipa</b> dosyasını indir</li>
+      <li><a style="color:#1DB954" href="https://sideloadly.io">sideloadly.io</a> programını bilgisayarına kur</li>
+      <li>iPhone'u USB ile bağla</li>
+      <li>ipa dosyasını pencereye sürükle + Apple ID gir</li>
+      <li>Start → bitti ✅</li>
+    </ol>
+  </div>
+
+  <div class="note">
+    Ücretsiz Apple ID yeterlidir · imza 7 gün geçerlidir, AltStore otomatik yeniler.<br>
+    iOS 16+ cihazlarda ilk kurulumda <b>Geliştirici Modu</b> gerekebilir:<br>
+    Ayarlar → Gizlilik ve Güvenlik → Geliştirici Modu → Aç<br><br>
+    🤖 Android kullanıcısıysan: APK sürümü yakında eklenecek.
+  </div>
+</body>
+</html>
