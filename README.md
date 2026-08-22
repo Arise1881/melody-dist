@@ -2,6 +2,21 @@
 
 Spotify tarzı, açık kaynak (GPL-3.0) müzik uygulaması.
 
+## ✨ Özellikler
+
+- ⬇️ **Çevrimdışı dinleme** — şarkı/liste indir, internetsiz dinle
+- 🔍 **Sınırsız müzik** — milyonlarca şarkıyı ara ve çal
+- 📝 **Şarkı sözleri** — eş zamanlı söz görüntüleme
+- 🎧 **Spotify içe aktarma** — Spotify listelerini tek tıkla taşı
+- 📻 **Radyo istasyonları** — sevdiğin şarkılardan sonsuz radyo
+- 🎤 **Sanatçı sayfaları** — sanatçı diskografisine göz at
+- 🎚️ **Ekolayzır** — bass/vokal ayarları ve hazır profiller
+- ⏰ **Uyku zamanlayıcısı**
+- 📊 **Zaman Makinesi** — dinleme istatistikleri
+- 🎨 **Tema desteği** — dinamik renk + saf siyah (AMOLED)
+- 🔗 **Çalma listesi paylaşımı** — tek linkle paylaş
+- 🌍 **Türkçe dahil çoklu dil**
+
 ## ⬇️ İndirme Linkleri
 
 | Dosya | Link |
