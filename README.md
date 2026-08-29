@@ -4,6 +4,7 @@ Spotify tarzı, açık kaynak (GPL-3.0) müzik uygulaması.
 
 ## ✨ Özellikler
 
+- 🎧 **En iyi ses kalitesi** — platforma göre en iyi akışı seçer (Android/PC: Opus öncelikli, ~160 kbps; iPhone: her zaman çalabilen en iyi AAC); ses asla transkode edilmez
 - ✨ **Premium arayüz** — çalan şarkının kapağına göre değişen aurora arka plan
 - ⬇️ **Çevrimdışı dinleme** — şarkı/liste indir, internetsiz dinle
 - 🔍 **Sınırsız müzik** — milyonlarca şarkıyı ara ve çal
@@ -24,7 +25,7 @@ Spotify tarzı, açık kaynak (GPL-3.0) müzik uygulaması.
 |-------|------|
 | 🤖 APK (Android) | [Melody.apk indir](../../releases/latest/download/Melody.apk) |
 | 📦 IPA (iOS) | [Melody.ipa indir](../../releases/latest/download/Melody.ipa) |
-| 🐧 DEB (Linux Mint/Ubuntu) | [melody_1.0.2_amd64.deb indir](../../releases/latest/download/melody_1.0.2_amd64.deb) |
+| 🐧 DEB (Linux Mint/Ubuntu) | [melody_1.0.3_amd64.deb indir](../../releases/latest/download/melody_1.0.3_amd64.deb) |
 | 🐧 Tar.gz (taşınabilir) | [Melody-linux.tar.gz indir](../../releases/latest/download/Melody-linux.tar.gz) |
 | 🌐 Tanıtım sayfası | [arise1881.github.io/melody-dist](https://arise1881.github.io/melody-dist/) |
 
@@ -53,12 +54,12 @@ Apple, QR/tarayıcıdan inen `.ipa`'nın direkt kurulmasına izin vermez; bu yü
 3. `Melody.ipa` dosyasını pencereye sürükle
 4. Apple ID gir → **Start** → biter ✅
 
-### Yol C: TrollStore (iOS 14.0–16.6.1 / 17.0)
+### Yol E: TrollStore (iOS 14.0–16.6.1 / 17.0)
 İmzasız IPA olduğu gibi kurulur: dosyayı TrollStore ile aç.
 
 ## 🐧 Masaüstü Kurulum (Linux)
 
-- **Linux Mint/Ubuntu**: `.deb` dosyasına çift tıkla → **Kur** (veya: `sudo apt install ./melody_1.0.2_amd64.deb`)
+- **Linux Mint/Ubuntu**: `.deb` dosyasına çift tıkla → **Kur** (veya: `sudo apt install ./melody_1.0.3_amd64.deb`)
 - Menüde "Melody" olarak görünür, ses için sistemde mpv kütüphanesi yeterlidir (Mint/Ubuntu'da hazır gelir)
 
 ## ❓ Sık Sorulanlar
