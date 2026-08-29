@@ -31,9 +31,11 @@ Spotify tarzı, açık kaynak (GPL-3.0) müzik uygulaması.
 
 ## 📲 iPhone'a Kurulum — 4 Yol
 
-### Yol A: PC'siz Kurulum (SideStore Web) — önerilen, bilgisayar gerekmez
-Apple, QR/tarayıcıdan inen `.ipa`'nın direkt kurulmasına izin vermez; bu yüzden cihaza önce küçük bir "imzalayıcı" (SideStore) kurulur. Kurulunca Melody ve güncellemeleri tamamen PC'siz:
-1. Tarayıcıdan [WebJitStreamer](https://web.jitstreamer.com) aç → Apple ID'nle gir → **SideStore**'u indir
+### Yol A: PC'siz Kurulum (SideStore) — önerilen, bilgisayar gerekmez
+Apple, QR/tarayıcıdan inen `.ipa`'nın direkt kurulmasına izin vermez; bu yüzden cihaza önce bir "imzalayıcı" (SideStore) kurulur. Kurulunca Melody ve güncellemeleri tamamen PC'siz:
+> ⚠️ Eski `web.jitstreamer.com` yöntemi hizmet dışı bırakıldı (site kapalı).
+1. **iOS 27+:** Tarayıcıdan [SideInstaller](https://frizzlem.github.io/SideInstaller/) → uygulamayı kur → Apple ID ile gir → **Install SideStore**
+   **iOS 26 ve altı (gri alan):** [AppleJr](https://applejr.net) ile **ESign** kur, SideStore IPA'sını cihazdan imzala (sertifika iptalleri yaşanabilir)
 2. SideStore → **Settings → Sources** → ekle:
    `altstore://source?url=https://raw.githubusercontent.com/Arise1881/melody-dist/main/apps.json`
 3. Kaynak listesinden **Melody** → **Install** → Apple ID onayı ✅
