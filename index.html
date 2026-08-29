@@ -7,7 +7,8 @@
 <style>
   * { margin:0; padding:0; box-sizing:border-box; font-family:-apple-system,'Segoe UI',Roboto,sans-serif; }
   body { background:#121212; color:#fff; min-height:100vh; display:flex; flex-direction:column; align-items:center; padding:40px 20px; }
-  .logo { width:110px; height:110px; background:#121212; border:4px solid #1DB954; border-radius:26px; display:flex; align-items:center; justify-content:center; font-size:64px; color:#1DB954; }
+  .logo { width:112px; height:112px; border-radius:26px; overflow:hidden; box-shadow:0 12px 34px rgba(190,24,96,.45); }
+  .logo img { width:100%; height:100%; object-fit:cover; display:block; }
   h1 { font-size:42px; margin:18px 0 6px; }
   h1 span { color:#1DB954; }
   .tag { color:#b3b3b3; margin-bottom:30px; font-size:16px; }
@@ -33,14 +34,15 @@
 </style>
 </head>
 <body>
-  <div class="logo">♪</div>
+  <div class="logo"><img src="icon.png" alt="Melody"></div>
   <h1>Melody<span>.</span></h1>
-  <div class="tag">Açık kaynak müzik player · Spotify tarzı · Türkçe</div>
+  <div class="tag">Premium arayüz · Açık kaynak müzik player · Spotify tarzı · Türkçe</div>
 
   <div class="btns">
     <a class="btn btn-green" href="https://github.com/Arise1881/melody-dist/releases/latest/download/Melody.apk">⬇️ &nbsp;Android için İndir (.apk)</a>
     <a class="btn btn-green" href="https://github.com/Arise1881/melody-dist/releases/latest/download/Melody.ipa">⬇️ &nbsp;iPhone için İndir (.ipa)</a>
-    <a class="btn btn-dark" href="https://github.com/Arise1881/melody-dist/releases/latest/download/melody_1.0.1_amd64.deb">⬇️ &nbsp;Linux için İndir (.deb)</a>
+    <a class="btn btn-dark" href="https://github.com/Arise1881/melody-dist/releases/latest/download/melody_1.0.2_amd64.deb">⬇️ &nbsp;Linux için İndir (.deb)</a>
+    <a class="btn btn-dark" href="https://github.com/Arise1881/melody-dist/releases/latest/download/Melody-linux.tar.gz">🐧 &nbsp;Linux taşınabilir (.tar.gz)</a>
     <a class="btn btn-dark" href="altstore://source?url=https://raw.githubusercontent.com/Arise1881/melody-dist/main/apps.json">📲 AltStore'a Ekle</a>
     <a class="btn btn-dark" href="https://github.com/Arise1881/melody-dist#readme">📖 Kurulum Rehberi</a>
   </div>
@@ -57,6 +59,7 @@
     <div class="feat"><b><em>⏰</em>Uyku Zamanlayıcısı</b><span>Belirlediğin sürede müziği durdur, uykuya dal</span></div>
     <div class="feat"><b><em>📊</em>Zaman Makinesi</b><span>Dinleme istatistiklerinle geçmişe yolculuk yap</span></div>
     <div class="feat"><b><em>🎨</em>Tema Desteği</b><span>Dinamik renkler ve AMOLED için saf siyah tema</span></div>
+    <div class="feat"><b><em>✨</em>Premium Arayüz</b><span>Çalan şarkının kapağına göre değişen aurora arka plan, yeni ikon tasarımı</span></div>
     <div class="feat"><b><em>🔗</em>Çalma Listesi Paylaşımı</b><span>Listelerini tek linkle arkadaşlarınla paylaş</span></div>
     <div class="feat"><b><em>🌍</em>Türkçe Destek</b><span>Türkçe dahil birden fazla dilde kullan</span></div>
   </div>
