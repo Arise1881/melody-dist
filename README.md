@@ -28,15 +28,26 @@ Spotify tarzı, açık kaynak (GPL-3.0) müzik uygulaması.
 | 🐧 Tar.gz (taşınabilir) | [Melody-linux.tar.gz indir](../../releases/latest/download/Melody-linux.tar.gz) |
 | 🌐 Tanıtım sayfası | [arise1881.github.io/melody-dist](https://arise1881.github.io/melody-dist/) |
 
-## 📲 iPhone'a Kurulum — 3 Yol
+## 📲 iPhone'a Kurulum — 4 Yol
 
-### Yol A: AltStore ile (en kolay, bilgisayar sadece ilk kurulumda)
+### Yol A: PC'siz Kurulum (SideStore Web) — önerilen, bilgisayar gerekmez
+Apple, QR/tarayıcıdan inen `.ipa`'nın direkt kurulmasına izin vermez; bu yüzden cihaza önce küçük bir "imzalayıcı" (SideStore) kurulur. Kurulunca Melody ve güncellemeleri tamamen PC'siz:
+1. Tarayıcıdan [WebJitStreamer](https://web.jitstreamer.com) aç → Apple ID'nle gir → **SideStore**'u indir
+2. SideStore → **Settings → Sources** → ekle:
+   `altstore://source?url=https://raw.githubusercontent.com/Arise1881/melody-dist/main/apps.json`
+3. Kaynak listesinden **Melody** → **Install** → Apple ID onayı ✅
+4. Sonrasında 7 günlük imza yenilemesi SideStore tarafından WiFi üzerinden otomatik yapılır
+
+### Yol B: PC'siz (gri alan) — ESign/Scarlet gibi cihaz-içi imzalayıcılar
+İnternetteki imza servisleri cihazda imzalar, "Profil/cihaz yönetimi" ile kurarsın. PC gerekmez ama ticari/kırık sertifika kullanır; Apple zaman zaman iptal eder → **güvenilir değil ve iOS 26'da çalışması garanti edilemez.**
+
+### Yol C: AltStore ile (ilk kurulumda tek seferlik bilgisayar)
 1. Telefonunda **AltStore** kuruluysa: bu linki aç →
    `altstore://source?url=https://raw.githubusercontent.com/Arise1881/melody-dist/main/apps.json`
 2. Kaynak eklenince listede **Melody** görünür → **Free** → **Install**
 3. Apple ID'nle onayla, biter ✅
 
-### Yol B: Sideloadly ile (Windows/Mac + USB)
+### Yol D: Sideloadly ile (Windows/Mac + USB)
 1. [sideloadly.io](https://sideloadly.io) indir
 2. iPhone'u USB ile bağla
 3. `Melody.ipa` dosyasını pencereye sürükle
@@ -53,7 +64,7 @@ Spotify tarzı, açık kaynak (GPL-3.0) müzik uygulaması.
 ## ❓ Sık Sorulanlar
 
 **Ücretli mi?** Hayır. Ücretsiz Apple ID ile kurulur.
-**Ne kadar geçerli?** Ücretsiz ; AltStore aynı WiFi'dayken otomatik yeniler.
+**Ne kadar geçerli?** Ücretsiz imza 7 gün geçerlidir; SideStore/AltStore aynı WiFi'dayken otomatik yeniler.
 **Geliştirici Modu?** iOS 16+ cihazlarda ilk kurulumda: Ayarlar → Gizlilik ve Güvenlik → Geliştirici Modu → Aç.
 
 ---
