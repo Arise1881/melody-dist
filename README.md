@@ -31,6 +31,8 @@ Spotify tarzı, açık kaynak (GPL-3.0) müzik uygulaması.
 
 ## 📲 iPhone'a Kurulum — 4 Yol
 
+> 🎬 **Video rehber:** Türkçe sesli anlatımlı, bilgisayarsız kurulum videosu (4:50 dk): [Melody-iOS-Kurulum.mp4 indir](../../releases/download/kurulum-videolari-v1/Melody-iOS-Kurulum.mp4)
+
 ### Yol A: PC'siz Kurulum (SideStore) — önerilen, bilgisayar gerekmez
 Apple, QR/tarayıcıdan inen `.ipa`'nın direkt kurulmasına izin vermez; bu yüzden cihaza önce bir "imzalayıcı" (SideStore) kurulur. Kurulunca Melody ve güncellemeleri tamamen PC'siz:
 > ⚠️ Eski `web.jitstreamer.com` yöntemi hizmet dışı bırakıldı (site kapalı).
