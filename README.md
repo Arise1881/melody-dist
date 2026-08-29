@@ -23,10 +23,10 @@ Spotify tarzı, açık kaynak (GPL-3.0) müzik uygulaması.
 
 | Dosya | Link |
 |-------|------|
-| 🤖 APK (Android) | [Melody.apk indir](../../releases/latest/download/Melody.apk) |
-| 📦 IPA (iOS) | [Melody.ipa indir](../../releases/latest/download/Melody.ipa) |
-| 🐧 DEB (Linux Mint/Ubuntu) | [melody_1.0.3_amd64.deb indir](../../releases/latest/download/melody_1.0.3_amd64.deb) |
-| 🐧 Tar.gz (taşınabilir) | [Melody-linux.tar.gz indir](../../releases/latest/download/Melody-linux.tar.gz) |
+| 🤖 APK (Android) | [Melody.apk indir](../../releases/download/melody-latest/Melody.apk) |
+| 📦 IPA (iOS) | [Melody.ipa indir](../../releases/download/melody-latest/Melody.ipa) |
+| 🐧 DEB (Linux Mint/Ubuntu) | [melody_1.0.3_amd64.deb indir](../../releases/download/melody-latest/melody_1.0.3_amd64.deb) |
+| 🐧 Tar.gz (taşınabilir) | [Melody-linux.tar.gz indir](../../releases/download/melody-latest/Melody-linux.tar.gz) |
 | 🌐 Tanıtım sayfası | [arise1881.github.io/melody-dist](https://arise1881.github.io/melody-dist/) |
 
 ## 📲 iPhone'a Kurulum — 4 Yol
