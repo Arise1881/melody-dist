@@ -28,7 +28,7 @@ Spotify tarzı, açık kaynak (GPL-3.0) müzik uygulaması.
 |-------|------|
 | 🤖 APK (Android) | [Melody.apk indir](../../releases/download/melody-latest/Melody.apk) |
 | 📦 IPA (iOS) | [Melody.ipa indir](../../releases/download/melody-latest/Melody.ipa) |
-| 🐧 DEB (Linux Mint/Ubuntu) | [melody_2.0.0_amd64.deb indir](../../releases/download/melody-latest/melody_2.0.0_amd64.deb) |
+| 🐧 DEB (Linux Mint/Ubuntu) | [melody_2.0.1_amd64.deb indir](../../releases/download/melody-latest/melody_2.0.1_amd64.deb) |
 | 🐧 Tar.gz (taşınabilir) | [Melody-linux.tar.gz indir](../../releases/download/melody-latest/Melody-linux.tar.gz) |
 | 🌐 Tanıtım sayfası | [arise1881.github.io/melody-dist](https://arise1881.github.io/melody-dist/) |
 
@@ -65,7 +65,7 @@ Apple, QR/tarayıcıdan inen `.ipa`'nın direkt kurulmasına izin vermez; bu yü
 
 ## 🐧 Masaüstü Kurulum (Linux)
 
-- **Linux Mint/Ubuntu**: `.deb` dosyasına çift tıkla → **Kur** (veya: `sudo apt install ./melody_2.0.0_amd64.deb`)
+- **Linux Mint/Ubuntu**: `.deb` dosyasına çift tıkla → **Kur** (veya: `sudo apt install ./melody_2.0.1_amd64.deb`)
 - Menüde "Melody" olarak görünür, ses için sistemde mpv kütüphanesi yeterlidir (Mint/Ubuntu'da hazır gelir)
 
 ## ❓ Sık Sorulanlar
