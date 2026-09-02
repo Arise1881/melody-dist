@@ -2,19 +2,22 @@
 
 Spotify tarzı, açık kaynak (GPL-3.0) müzik uygulaması.
 
-## ✨ Özellikler
+## ✨ Özellikler (v2.0.0)
 
 - 🎧 **En iyi ses kalitesi** — platforma göre en iyi akışı seçer (Android/PC: Opus öncelikli, ~160 kbps; iPhone: her zaman çalabilen en iyi AAC); ses asla transkode edilmez
+- 🎚️ **Ses kalitesi seçimi** — Otomatik / Yüksek / Orta / Düşük
+- 📝 **Şarkı sözleri** — eş zamanlı senkron söz görüntüleme
+- 📻 **Şarkı radyosu** — sevdiğin şarkıya benzer sonsuz çalma listesi
+- 🎤 **Sanatçı sayfaları** — sanatçı diskografisine tek ekrandan göz at
+- 🔢 **Sıralama (Queue) görünümü** — şimdi çalıyor ekranında sırayı gör/düzenle
+- ⏰ **Uyku zamanlayıcısı** — 10dk–2sa arası otomatik durdurma
+- 📊 **Dinleme geçmişi** — son çalınanlar
+- ➕ **Çalma listesine hızlı ekleme** — her şarkıdan tek tıkla
 - ✨ **Premium arayüz** — çalan şarkının kapağına göre değişen aurora arka plan
 - ⬇️ **Çevrimdışı dinleme** — şarkı/liste indir, internetsiz dinle
 - 🔍 **Sınırsız müzik** — milyonlarca şarkıyı ara ve çal
-- 📝 **Şarkı sözleri** — eş zamanlı söz görüntüleme
 - 🎧 **Spotify içe aktarma** — Spotify listelerini tek tıkla taşı
-- 📻 **Radyo istasyonları** — sevdiğin şarkılardan sonsuz radyo
-- 🎤 **Sanatçı sayfaları** — sanatçı diskografisine göz at
 - 🎚️ **Ekolayzır** — bass/vokal ayarları ve hazır profiller
-- ⏰ **Uyku zamanlayıcısı**
-- 📊 **Zaman Makinesi** — dinleme istatistikleri
 - 🎨 **Tema desteği** — dinamik renk + saf siyah (AMOLED)
 - 🔗 **Çalma listesi paylaşımı** — tek linkle paylaş
 - 🌍 **Türkçe dahil çoklu dil**
@@ -25,7 +28,7 @@ Spotify tarzı, açık kaynak (GPL-3.0) müzik uygulaması.
 |-------|------|
 | 🤖 APK (Android) | [Melody.apk indir](../../releases/download/melody-latest/Melody.apk) |
 | 📦 IPA (iOS) | [Melody.ipa indir](../../releases/download/melody-latest/Melody.ipa) |
-| 🐧 DEB (Linux Mint/Ubuntu) | [melody_1.0.3_amd64.deb indir](../../releases/download/melody-latest/melody_1.0.3_amd64.deb) |
+| 🐧 DEB (Linux Mint/Ubuntu) | [melody_2.0.0_amd64.deb indir](../../releases/download/melody-latest/melody_2.0.0_amd64.deb) |
 | 🐧 Tar.gz (taşınabilir) | [Melody-linux.tar.gz indir](../../releases/download/melody-latest/Melody-linux.tar.gz) |
 | 🌐 Tanıtım sayfası | [arise1881.github.io/melody-dist](https://arise1881.github.io/melody-dist/) |
 
@@ -62,7 +65,7 @@ Apple, QR/tarayıcıdan inen `.ipa`'nın direkt kurulmasına izin vermez; bu yü
 
 ## 🐧 Masaüstü Kurulum (Linux)
 
-- **Linux Mint/Ubuntu**: `.deb` dosyasına çift tıkla → **Kur** (veya: `sudo apt install ./melody_1.0.3_amd64.deb`)
+- **Linux Mint/Ubuntu**: `.deb` dosyasına çift tıkla → **Kur** (veya: `sudo apt install ./melody_2.0.0_amd64.deb`)
 - Menüde "Melody" olarak görünür, ses için sistemde mpv kütüphanesi yeterlidir (Mint/Ubuntu'da hazır gelir)
 
 ## ❓ Sık Sorulanlar

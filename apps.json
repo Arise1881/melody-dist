@@ -1,7 +1,7 @@
 {
   "name": "Melody - Müzik Player",
   "subtitle": "Spotify tarzı açık kaynak müzik uygulaması",
-  "description": "Melody, GPL-3.0 lisanslı açık kaynak bir müzik çalar. En iyi ses kalitesi (Opus 160 kbps öncelikli akış seçimi), premium arayüz, çevrimdışı indirme, çalma listeleri, ekolayzer ve daha fazlası. AltStore üzerinden kurmak için ücretsiz Apple ID yeterlidir (7 günde bir AltStore ile yenileme gerekir).",
+  "description": "Melody, GPL-3.0 lisanslı açık kaynak bir müzik çalar. En iyi ses kalitesi, premium arayüz, çevrimdışı indirme, çalma listeleri, ekolayzer, şarkı radyosu, şarkı sözleri, sanatçı sayfaları, ses kalitesi seçimi, uyku zamanlayıcısı ve daha fazlası. AltStore üzerinden kurmak için ücretsiz Apple ID yeterlidir (7 günde bir AltStore ile yenileme gerekir).",
   "iconURL": "https://raw.githubusercontent.com/Arise1881/melody-dist/main/icon.png",
   "headerURL": "https://raw.githubusercontent.com/Arise1881/melody-dist/main/header.png",
   "tintColor": "1DB954",
@@ -10,9 +10,9 @@
     {
       "name": "Melody",
       "bundleIdentifier": "com.melody.app",
-      "version": "1.0.3",
-      "versionDate": "2026-08-30T00:10:00Z",
-      "versionDescription": "En iyi ses kalitesi: platforma göre ideal akış seçimi (Android/PC'de Opus öncelikli, iPhone'da her zaman çalabilen en iyi AAC) — sesi bozmadan en yüksek kalite.",
+      "version": "2.0.0",
+      "versionDate": "2026-09-02T00:00:00Z",
+      "versionDescription": "YouTube Music özellikleri eklendi: şarkı sözleri, şarkı radyosu, sanatçı sayfaları, ses kalitesi seçimi, uyku zamanlayıcısı, sıralama (queue) görünümü, dinleme geçmişi ve çalma listesine hızlı ekleme.",
       "downloadURL": "https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody.ipa",
       "size": 10649729,
       "iconURL": "https://raw.githubusercontent.com/Arise1881/melody-dist/main/icon.png",
