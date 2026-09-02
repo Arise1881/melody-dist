@@ -1,7 +1,7 @@
 {
-  "version": "2.0.2",
-  "versionCode": 22,
-  "notes": "TEST guncellemesi - uctan uca test icin gecici",
+  "version": "2.0.1",
+  "versionCode": 21,
+  "notes": "Uygulama içi otomatik güncelleme eklendi.",
   "platforms": {
     "android-arm64": "https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody.apk",
     "android-universal": "https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody-universal.apk",
